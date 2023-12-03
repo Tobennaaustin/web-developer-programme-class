@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        caption {
+            background-color: #04AA6D;
+            color: white;
+            text-align: center;
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 600px) {
+            th, td {
+                display: block;
+                width: 100%;
+            }
+
+            th, td {
+                box-sizing: border-box;
+            }
+        }
+    </style>
+<body>
+    <div class="table" style="overflow-x: auto;">
+        <table>
+            <thead>
+                <caption>Work Outline</caption>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Weeks</td>
+                    <td>Friday</td>
+                    <td>Saturday</td>
+                    <td>Sunday</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>Introduction</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Writing our first Html Code-tags, Semantics, first project</td>
+                    <td>Review project 1 and HTML Forms and Validations and Project two</td>
+                    <td>Review of Project two and Intro to Accessibility, SEO</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Intro to CSS</td>
+                    <td>Design Layouts(Grid + Flexbox) + project 3</td>
+                    <td>GitHub Deployment. + deploy projects 1 to 3</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Review project 3 + intro to responsive design + project 4</td>
+                    <td>Review project 4 + Boss Level Project</td>
+                    <td>Introduction to Javascript</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
